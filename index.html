@@ -1,0 +1,61 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <p class="gender"></p>
+    <p class="first"></p>
+    <p class="last"></p>
+    <p class="date"></p>
+    <img class="img" src="">
+    <button class="button">reset</button>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+ integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+ crossorigin=""></script>
+ <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body class="body">
+ <div class="div_tot">
+    <div class="div">
+        <p>- Station name : <p class="name"></p></p>
+    </div>
+    <div class="div">
+        <p>- Velib dispo : <p class="velib"></p></p>
+    </div>
+    <div class="div">
+        <p>- VelibPlace dispo : <p class="VelibPlace"></p></p>
+    </div>
+    <div class="div">
+        <p>- EBike dispo (en %) : <p class="VelibE"></p></p>
+    </div>
+    <div class="div">
+        <p>- Bike mecha dispo (en %): <p class="VelibMecha"></p></p>
+    </div>
+    <div class="div">
+        <progress class="bar" max="100" value=""></progress>
+    </div>
+ </div>
+ <div id="map"></div>
+</body>
+</html>
